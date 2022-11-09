@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Biglietto</title>
+</head>
+<body>
+     <div class="ticket">
+        <div class="section">
+            <h2>CALCOLA IL PREZZO DEL BIGLIETTO</h2>
+            <div class="inner_section round shadow">
+                <div class="input_row">
+                    <div class="tab cflex">
+                        <span class="red">Nome e Cognome</span>
+                        <input id="inputNome" type="text">    
+                    </div>
+                    <div class="tab cflex">
+                        <span class="red">Km da percorrere</span>
+                        <input id="inputKm" type="text">
+                    </div>
+                    <div class="tab cflex">
+                        <span class="red">Età</span>
+                        <input id="inputEta" type="text">
+                    </div>
+                </div>
+                <div class="input_buttons">
+                    <button id="genera" value="Genera">Genera</button>
+                    <button id="annulla" value="Annulla">Annulla</button>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>IL TUO BIGLIETTO</h2>
+            <div class="inner_section pad">
+                <h3>DETTAGLIO PASSEGGERI</h3>
+                <div class="details">
+                    <div class="name_tab pad">
+                        <h3>NOME PASSEGGERO</h3>
+                        <span id="name"></span>
+                    </div>
+                    <div class= "ticket_tab pad">
+                        <div class="tab">
+                            <h3>Offerta</h3>
+                            <span>Biglietto Ordinario</span>
+                        </div>
+                        <div class="tab">
+                            <h3>Carrozza</h3>
+                            <span id="wagon"></span>
+                        </div>
+                        <div class="tab">
+                            <h3>Codice CP</h3>
+                            <span id="CPCode"></span>
+                        </div>
+                        <div class="tab">
+                            <h3>Costo biglietto</h3>
+                            <span id="ticketPrice"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>   
+    <script src="main.js"></script>
+</body>
+</html

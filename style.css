@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+.ticket {
+    margin: 300px auto;
+    width: 1000px;
+    height: 550px;
+    background-color: rgb(185, 21, 80) ;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.section {
+    height: 220px;
+    width: 850px;
+    
+}
+.inner_section {
+    width: 850px;
+    height: 175px;
+    background-color: white;
+}
+.details {
+    height: 95px;
+    width: 810px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    display: flex;
+}
+.name_tab {
+    height: 92px;
+    width: 235px;
+    background-color: grey;
+}
+.ticket_tab {
+    height: 100%;
+    width: 575px;
+    display: flex;
+    justify-content: flex-start;
+}
+.tab {
+    width: 150px;
+}
+#nome {
+    font-weight: 600;
+}
+
+
+.input_row {
+    margin: auto;
+    height: 80px;
+    width: 600px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input_buttons {
+    margin: auto;
+    width: 400px;
+    padding-top: 50px;
+    display: flex;
+    gap: 0px;
+    justify-content: space-around;
+}
+.input_buttons button {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(185, 21, 80);
+}
+.input_row input {
+    border-radius: 5px;
+    border: 1px solid rgb(185, 21, 80);
+}
+/* Cosmetics */
+.round {
+    border-radius: 15px;
+}
+.shadow {
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.05)
+}
+.pad {
+    padding-top: 1px;
+    padding-left: 20px;
+}
+.red {
+    color: rgb(185, 21, 80);
+}
+.cflex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+
+
+
+/* Interaction */
+button:hover {
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
